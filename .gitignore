@@ -1,12 +1,7 @@
 .idea/ 
 .vs/
 .config/
- 
-src/GetBrokers.BackOffice/ClientApp/package-lock.json
-src/GetBrokers.BackOffice/wwwroot/dist/
-src/GetBrokers.BackOffice/wwwroot/sw.* 
-src/GetBrokers.Telegram/wwwroot/dist/
-src/GetBrokers.Telegram/ClientApp/package-lock.json
+  
 
 bin/
 obj/ 

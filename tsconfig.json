@@ -5,54 +5,16 @@
         "jsx": "react-jsx",
         "moduleResolution": "node",
         "module": "ES2020",
-        "target": "es6",
+        "target": "ES6",
         "lib": [
             "es2021",
             "DOM",
             "WebWorker"
         ],
         "strict": true,
-        "baseUrl": "./src",
-        "rootDir": "./src",
         "importHelpers": true,
         "removeComments": true,
         "esModuleInterop": true,
         "isolatedModules": true,
-    },
-    "include": [
-        "src",
-        "src/**/*.d.ts",
-        "src/**/*.ts",
-    ],
-    "exclude": [
-        "node_modules"
-    ],
-    "tasks": [
-        {
-            "label": "tsc watch",
-            "type": "shell",
-            "command": "./node_modules/.bin/tsc",
-            "isBackground": true,
-            "args": [
-                "--watch",
-                "--noEmit",
-                "--project",
-                "src"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "presentation": {
-                "reveal": "never",
-                "echo": false,
-                "focus": false,
-                "panel": "dedicated"
-            },
-            "problemMatcher": "$tsc-watch",
-            "runOptions": {
-                "runOn": "folderOpen"
-            }
-        }
-    ]
+    }
 }
